@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D46B5ED420BAC8F600DBD9D2 /* UDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = D46B5ED220BAC8F600DBD9D2 /* UDraw.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D46B5EDB20BAC90600DBD9D2 /* UDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B5EDA20BAC90600DBD9D2 /* UDrawView.swift */; };
-		D46B5EDD20BAD0C700DBD9D2 /* UDrawPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B5EDC20BAD0C700DBD9D2 /* UDrawPath.swift */; };
+		D46B5EDD20BAD0C700DBD9D2 /* UPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B5EDC20BAD0C700DBD9D2 /* UPath.swift */; };
 		D46B5EDF20BAD12400DBD9D2 /* UPathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B5EDE20BAD12400DBD9D2 /* UPathBuilder.swift */; };
 /* End PBXBuildFile section */
 
@@ -18,7 +18,7 @@
 		D46B5ED220BAC8F600DBD9D2 /* UDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDraw.h; sourceTree = "<group>"; };
 		D46B5ED320BAC8F600DBD9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46B5EDA20BAC90600DBD9D2 /* UDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDrawView.swift; sourceTree = "<group>"; };
-		D46B5EDC20BAD0C700DBD9D2 /* UDrawPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDrawPath.swift; sourceTree = "<group>"; };
+		D46B5EDC20BAD0C700DBD9D2 /* UPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPath.swift; sourceTree = "<group>"; };
 		D46B5EDE20BAD12400DBD9D2 /* UPathBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPathBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 				D46B5ED220BAC8F600DBD9D2 /* UDraw.h */,
 				D46B5ED320BAC8F600DBD9D2 /* Info.plist */,
 				D46B5EDA20BAC90600DBD9D2 /* UDrawView.swift */,
-				D46B5EDC20BAD0C700DBD9D2 /* UDrawPath.swift */,
+				D46B5EDC20BAD0C700DBD9D2 /* UPath.swift */,
 				D46B5EDE20BAD12400DBD9D2 /* UPathBuilder.swift */,
 			);
 			path = UDraw;
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46B5EDF20BAD12400DBD9D2 /* UPathBuilder.swift in Sources */,
-				D46B5EDD20BAD0C700DBD9D2 /* UDrawPath.swift in Sources */,
+				D46B5EDD20BAD0C700DBD9D2 /* UPath.swift in Sources */,
 				D46B5EDB20BAC90600DBD9D2 /* UDrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
